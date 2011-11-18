@@ -13,6 +13,8 @@
 		174D271F1476EBCC00588600 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 174D271D1476EBCC00588600 /* Credits.rtf */; };
 		174D27221476EBCC00588600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 174D27211476EBCC00588600 /* AppDelegate.m */; };
 		174D27251476EBCD00588600 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174D27231476EBCD00588600 /* MainMenu.xib */; };
+		174D273C1476FEF600588600 /* OptionPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 174D273A1476FEF600588600 /* OptionPopover.m */; };
+		174D273D1476FEF600588600 /* OptionPopover.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174D273B1476FEF600588600 /* OptionPopover.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		174D27111476EBCC00588600 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		174D27121476EBCC00588600 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		174D27131476EBCC00588600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		174D27161476EBCC00588600 /* ToolbarPopover-Info.plist */ = {isa = PBXFileReference; path = "ToolbarPopover-Info.plist"; sourceTree = "<group>"; };
+		174D27161476EBCC00588600 /* ToolbarPopover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToolbarPopover-Info.plist"; sourceTree = "<group>"; };
 		174D27181476EBCC00588600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		174D271A1476EBCC00588600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		174D271C1476EBCC00588600 /* ToolbarPopover-Prefix.pch */ = {isa = PBXFileReference; path = "ToolbarPopover-Prefix.pch"; sourceTree = "<group>"; };
+		174D271C1476EBCC00588600 /* ToolbarPopover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToolbarPopover-Prefix.pch"; sourceTree = "<group>"; };
 		174D271E1476EBCC00588600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		174D27201476EBCC00588600 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		174D27201476EBCC00588600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		174D27211476EBCC00588600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		174D27241476EBCD00588600 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		174D27391476FEF600588600 /* OptionPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionPopover.h; sourceTree = "<group>"; };
+		174D273A1476FEF600588600 /* OptionPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionPopover.m; sourceTree = "<group>"; };
+		174D273B1476FEF600588600 /* OptionPopover.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionPopover.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				174D27201476EBCC00588600 /* AppDelegate.h */,
 				174D27211476EBCC00588600 /* AppDelegate.m */,
 				174D27231476EBCD00588600 /* MainMenu.xib */,
+				174D27391476FEF600588600 /* OptionPopover.h */,
+				174D273A1476FEF600588600 /* OptionPopover.m */,
+				174D273B1476FEF600588600 /* OptionPopover.xib */,
 				174D27151476EBCC00588600 /* Supporting Files */,
 			);
 			path = ToolbarPopover;
@@ -156,6 +164,7 @@
 				174D27191476EBCC00588600 /* InfoPlist.strings in Resources */,
 				174D271F1476EBCC00588600 /* Credits.rtf in Resources */,
 				174D27251476EBCD00588600 /* MainMenu.xib in Resources */,
+				174D273D1476FEF600588600 /* OptionPopover.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 			files = (
 				174D271B1476EBCC00588600 /* main.m in Sources */,
 				174D27221476EBCC00588600 /* AppDelegate.m in Sources */,
+				174D273C1476FEF600588600 /* OptionPopover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

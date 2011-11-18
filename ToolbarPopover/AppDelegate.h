@@ -8,8 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@class OptionPopover;
+
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    IBOutlet NSToolbarItem *buttonWithView;
+    OptionPopover *optionPopover;
+
+}
 
 @property (assign) IBOutlet NSWindow *window;
+
+- (IBAction)ButtonWithViewPressed:(id)sender;
 
 @end
